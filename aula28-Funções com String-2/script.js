@@ -8,7 +8,7 @@ console.log(frase.toUpperCase());
 
 console.log(frase.toLowerCase());
 
-//trim-Trira todos os espaçoes feitos.
+//trim-Tira todos os espaçoes feitos.
 
 var nome = '           Dã          ';
 

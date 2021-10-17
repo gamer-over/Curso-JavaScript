@@ -21,7 +21,7 @@ var roeu = frase.slice(7, 11);
 
 console.log(roeu);
 
-//replace-Trocar algumastring por outra da frase
+//replace-Trocar alguma string por outra da frase
 
 var novafrase = frase.replace('roeu', 'teste');
 
