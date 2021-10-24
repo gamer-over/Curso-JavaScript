@@ -1,14 +1,25 @@
-//Removendo elemento filho
+var el = document.createElement('div');
+
+
+//classlist-Adicionar um classe a algum elemento
+
+el.classList = 'div-criada';
+
+console.log(el);
+
 var container = document.querySelector('#container');
 
-var p = document.querySelector('#container p');
+//inserindo elemento filho
+container.appendChild(el);
 
-container.removeChild(p);
+//inserBefore-insere antes
 
-//Remover o elemento em si-PAi
+var el2 = document.createElement('div');
 
-var subtitle = document.querySelector('#subtitle');
+el2.classList = 'div-before';
 
-subtitle.remove();
+var el3 = document.querySelector('#container .div-criada');
 
+console.log(el3);
 
+container.insertBefore(el2, el3);
